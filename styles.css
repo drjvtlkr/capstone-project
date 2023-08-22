@@ -1,0 +1,8 @@
+nav a {
+    text-decoration: none;
+}
+
+ul li i {
+    list-style: none;
+}
+/* by removing i here list styles will go */
