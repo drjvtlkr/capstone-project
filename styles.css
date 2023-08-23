@@ -7,6 +7,13 @@ ul li {
 }
 /* by removing i here list styles will go */
 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
 .main-direct {
     text-decoration: none;
     list-style: none;
@@ -16,5 +23,12 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+.ref {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
