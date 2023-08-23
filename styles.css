@@ -11,3 +11,10 @@ ul li i {
     text-decoration: none;
     list-style: none;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
