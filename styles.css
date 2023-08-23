@@ -6,3 +6,8 @@ ul li i {
     list-style: none;
 }
 /* by removing i here list styles will go */
+
+.main-direct {
+    text-decoration: none;
+    list-style: none;
+}
