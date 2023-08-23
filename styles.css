@@ -7,6 +7,17 @@ ul li {
 }
 /* by removing i here list styles will go */
 
+body {
+    background-image: linear-gradient(#5091c5 25%,#02050a 75%);
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
 footer {
     background-color: #333;
     color: #fff;
