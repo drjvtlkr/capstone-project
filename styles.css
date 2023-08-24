@@ -99,9 +99,9 @@ footer {
     margin-left: auto;
 }
 
-.dif-pages {
+/* .dif-pages {
 
-}
+} */
 
 .header {
     display: flex;
@@ -195,11 +195,6 @@ footer {
     justify-content:flex-end;
     width: auto;
 }
-/* .playlist {
-    display: flex;
-    flex-direction: row;
-} */  
-/* not usefull anymore */
 
 .main {
     color: #fff;
