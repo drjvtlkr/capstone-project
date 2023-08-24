@@ -79,6 +79,7 @@ footer {
     list-style: none;
     padding: 10px;
     margin-left: 0;
+    justify-content: flex-end;
 }
 
 .nav-list li {
@@ -95,7 +96,11 @@ footer {
   
   /* Add space to the left of the first list item to move the contents to the left */
 .nav-list li:first-child {
-    margin-right: auto;
+    margin-left: auto;
+}
+
+.dif-pages {
+
 }
 
 .header {
