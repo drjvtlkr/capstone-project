@@ -8,8 +8,17 @@ nav{
 nav a {
     text-decoration: none;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 300px;
     color: #fff;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    position:relative;
 }
 
 ul li {
@@ -33,6 +42,34 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* flex: ; */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left: 0;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+  
+  /* Style the navbar links */
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+  /* Add space to the left of the first list item to move the contents to the left */
+.nav-list li:first-child {
+    margin-right: auto;
 }
 
 .header {
